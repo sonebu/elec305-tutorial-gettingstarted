@@ -9,6 +9,5 @@ end lab0main;
 
 architecture Behavioral of lab0main is
 begin
-    led(15 downto 6) <= not sw(15 downto 6);
-    led(5 downto 0) <= sw(5 downto 0);
+    led(15 downto 0) <= sw(15 downto 0);
 end Behavioral;
