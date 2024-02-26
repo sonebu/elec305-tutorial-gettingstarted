@@ -14,7 +14,7 @@ begin
   process(sysclk)
   begin
     if sysclk'event and sysclk = '1' then
-      if count = 49999999 then
+      if count = 5999999 then
         count <= 0;
         pulse <= not pulse;
       else
